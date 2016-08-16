@@ -1,0 +1,164 @@
+.navbar {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+}
+.page1 {
+    background-image: url("../img/back1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page2 {
+    background-image: url("../img/back2.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.page3 {
+    background-image: url("../img/back3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page4 {
+    background-image: url("../img/back4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.page5 {
+    background-image: url("../img/back5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.first-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 80px;
+}
+.last-name {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 100;
+    font-size: 80px;
+}
+.name {
+    text-align: center;
+    color: white;
+}
+.raw-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+.intro-text {
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color: #ffffff;
+    font-size: 20px;
+}
+.dp {
+    width: 170px;
+}
+.headings {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: 5px 5px 5px #FFFFFF;
+}
+.proj-img {
+    height: 150px;
+    width: 150px;
+    /*margin-left: 150px;*/
+}
+.proj-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+.proj-panel {
+    width: 70%;
+    padding-bottom: 40px;
+    /*margin-left: 70px;*/
+}
+.proj-panel-heading {
+    font-size: 15px;
+}
+.intern-panel {
+    width: 80%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    opacity: 0.9;
+}
+.intern-panel-heading {
+    font-size: 15px;
+    /*opacity: 1;*/
+}
+.intern-panel-body {
+    text-align: left;
+}
+.intern-img {
+    width: 150px;
+    height: 150px;
+    opacity: 1.0!important;
+}
+.box {
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 110%;
+    padding: 15px 15px 15px 15px;
+    opacity: 0.7;
+    text-decoration: none !important;
+}
+.box:hover {
+    color: white;
+    cursor: default;
+    opacity: 1;
+}
+.standman {
+    height: 120%;
+    width: 120%;
+}
+h3 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 400 !important;
+    color: red !important;
+}
+.not-work-box {
+    background-color: white;
+    padding: 5px 5px 10px 5px;
+}
+.not-work-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.foot-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    position: relative;
+    bottom: 10px;
+    color: black;
+    padding: 10px 10px 10px 10px;
+}
+.foot-box {
+    background-color: black;
+    opacity: 0.2;
+    position: relative;
+    bottom: -30px;
+    width: 70%;
+}
+.box-padd {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+body {
+        overflow-x: hidden;
+}
+/*Cinzel-400*/
