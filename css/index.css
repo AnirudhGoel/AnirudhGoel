@@ -90,18 +90,24 @@
 }
 .intern-panel-body {
     padding-top: 20px;
+    padding-left: 10px;
     padding-bottom: 20px;
+    padding-right: 10px;
 }
-.intern-panel-heading {
+.intern-panel-image {
     padding-top: 20px;
 }
 .intern-box {
+    /*text-overflow: all;*/
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    min-height: 150px;
-    width: 80%;
+    /*min-height: 150px;*/
+    width: 90%;
     background-color: rgba(255, 255, 255, 0.7);
+}
+.intern-box-heading, .intern-post, .intern-time {
+    background-color: rgba(0, 0, 0, 0.2);
 }
 .intern-img {
     height: 150px;
@@ -175,9 +181,28 @@ body {
 @media only screen and (min-width: 750px) {
     .intern-panel-body {
         padding-top: 10px;
-        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-bottom: 10px;
     }
-    .intern-panel-heading {
-        padding-top: 0px;
+    .intern-panel-image {
+        padding-left: 5px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .intern-post {
+        border-top-style: solid;
+        border-right-style: solid;
+        border-top-width: 2px;
+        border-right-width: 1px;
+        border-color: white;
+        margin-bottom: 5px;
+    }
+    .intern-time {
+        border-top-style: solid;
+        border-left-style: solid;
+        border-top-width: 2px;
+        border-left-width: 1px;
+        border-color: white;
+        margin-bottom: 5px;
     }
 }
