@@ -14,6 +14,6 @@ function resume() {
 		alert("No Email Id Entered");
 	}
 	else if(email == "chocolate@icecream.com") {
-		alert("I'm sure you like Chocolate Ice Cream but...\nYou'd have entered a valid Email ID");
+		alert("I'm sure you like Chocolate Ice Cream but...\nYou could have entered a valid Email ID");
 	}
 }
