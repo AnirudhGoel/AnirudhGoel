@@ -6,6 +6,7 @@
     font-size: 15px;
 }
 .page1 {
+    min-height: 100vh;
     background-image: url("../img/back1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -170,8 +171,8 @@ h3 {
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     font-size: 18px;
-    position: relative;
-    bottom: 10px;
+    /*position: relative;*/
+    /*bottom: 10px;*/
     color: white;
     padding: 10px 10px 10px 10px;
 }
@@ -180,7 +181,7 @@ h3 {
     padding-bottom: 30px;
 }
 body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
 }
 
 @media only screen and (min-width: 750px) {
@@ -205,5 +206,16 @@ body {
         border-left-width: 1px;
         border-color: white;
         margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .first-name {
+        font-size: 60px;
+    }
+    .last-name {
+        font-size: 60px;
+    }
+    .headings {
+        font-size: 60px;
     }
 }
