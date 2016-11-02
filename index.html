@@ -800,6 +800,7 @@
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="js/wow.min.js"></script>
 		<script>
 			function changeAnimation() {
 				var width = $(window).width();
@@ -807,10 +808,9 @@
 					$(".wow").removeClass("slideInUp slideInLeft slideInRight fadeIn fadeInUp").addClass("fadeInUp");
 				}
 			}
+			// Call function on page load
 			changeAnimation();
-		</script>
-		<script src="js/wow.min.js"></script>
-		<script>
+			// Call WOW.js
 			new WOW().init();
 		</script>
 	</body>
