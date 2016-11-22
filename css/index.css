@@ -23,7 +23,7 @@
     background-image: url("../img/back4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: auto;
+    overflow: hidden;
 }
 .page5 {
     background-image: url("../img/back5.jpg");
