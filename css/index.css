@@ -108,11 +108,9 @@
     box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
     -moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
     -webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    /*text-overflow: all;*/
     margin-top: 20px;
     font-family: 'Lato', sans-serif;
     font-weight: 400;
-    /*min-height: 150px;*/
     width: 95%;
     background-color: rgba(255, 255, 255, 0.7);
 }
@@ -120,7 +118,7 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 .intern-box a {
-    color: #736AFF;
+    color: #337ab7;
 }
 .intern-img {
     margin-top: 10px;
@@ -146,19 +144,6 @@
     margin-bottom: 40px;
     width: 90vw;
 }
-/*.box {
-    background-color: black;
-    color: white;
-    font-size: 110%;
-    padding: 15px 15px 15px 15px;
-    background-color: rgba(0, 0, 0, 0.7);
-    text-decoration: none !important;
-}
-.box:hover {
-    color: white;
-    cursor: default;
-    background-color: rgba(0, 0, 0, 1);
-}*/
 h3 {
     font-family: 'Lato', sans-serif !important;
     font-weight: 300 !important;
@@ -194,6 +179,9 @@ h3 {
 body {
     overflow-x: hidden;
 }
+ul {
+    padding-left: 15px;
+}
 
 @media only screen and (min-width: 750px) {
     .intern-panel-body {
@@ -217,6 +205,21 @@ body {
         border-left-width: 1px;
         border-color: white;
         margin-bottom: 5px;
+    }
+    .navbar {
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 600;
+        font-size: 15px;
+        height: 75px;
+        border: none;
+        background-color: transparent;
+        -webkit-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+    }
+    .shrinkNav {
+        height: 50px;
+        background-color: #222;
+        font-size: 15px;
     }
 }
 @media only screen and (max-width: 500px) {
