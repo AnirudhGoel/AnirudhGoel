@@ -142,7 +142,7 @@
     padding-top: 40px;
     padding-bottom: 20px;
     margin-bottom: 40px;
-    width: 90vw;
+    /*width: 90vw;*/
 }
 h3 {
     font-family: 'Lato', sans-serif !important;
@@ -218,8 +218,17 @@ ul {
     }
     .shrinkNav {
         height: 50px;
-        background-color: #222;
+        /*background-color: #222;*/
+        background-color: white;
         font-size: 15px;
+    }
+    .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+        color: #fff;
+        background-color: black;
+    }
+    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+        color: #fff;
+        background-color: black;
     }
 }
 @media only screen and (max-width: 500px) {
