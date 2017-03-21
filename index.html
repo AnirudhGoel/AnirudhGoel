@@ -684,37 +684,44 @@
 				<div class='headings'>
 					Technologies Known
 				</div>
-				<div class="container tech-box wow fadeInUp">
+				<br><br>
+				<div class="container">
 					<div class="row">
 						<div class="col-sm-4">
-							HyperText Markup Language (HTML 5)<br><br>
-							Cascading Style Sheets (CSS 3)<br><br>
-							JavaScript (JS)<br><br>
-							Slim Micro Framework<br><br>
-							API<br><br>
-							Firebase BaAS<br><br>
-							Wordpress<br><br>
-							Joomla<br><br>
+							<div class="tech-box1 wow fadeInUp">
+								HyperText Markup Language (HTML 5)<br><br>
+								Cascading Style Sheets (CSS 3)<br><br>
+								JavaScript (JS)<br><br>
+								Slim Micro Framework<br><br>
+								API<br><br>
+								Firebase BaAS<br><br>
+								Wordpress<br><br>
+								Joomla<br><br>
+							</div>
 						</div>
 						<div class="col-sm-4">
-							Bootstrap : CSS Framework<br><br>
-							Asynchronous JavaScript and XML (AJAX)<br><br>
-							PHP<br><br>
-							Chrome Browser Extensions<br><br>
-							Firefox Browser Extensions<br><br>
-							Cookies and Browser Storage<br><br>
-							jQuery<br><br>
-							Python<br><br>
+							<div class="tech-box2 wow fadeInUp">
+								Bootstrap : CSS Framework<br><br>
+								Asynchronous JavaScript and XML (AJAX)<br><br>
+								PHP<br><br>
+								Chrome Browser Extensions<br><br>
+								Firefox Browser Extensions<br><br>
+								Cookies and Browser Storage<br><br>
+								jQuery<br><br>
+								Python<br><br>
+							</div>
 						</div>
 						<div class="col-sm-4">
-							MySQL RDBMS<br><br>
-							JavaScript Object Notation (JSON)<br><br>
-							OAuth Authorization (API)<br><br>
-							Git<br><br>
-							xHTML<br><br>
-							Adobe Photoshop<br><br>
-							Adobe Illustrator<br><br>
-							C/C++<br><br>
+							<div class="tech-box3 wow fadeInUp">
+								MySQL RDBMS<br><br>
+								JavaScript Object Notation (JSON)<br><br>
+								OAuth Authorization (API)<br><br>
+								Git<br><br>
+								xHTML<br><br>
+								Adobe Photoshop<br><br>
+								Adobe Illustrator<br><br>
+								C/C++<br><br>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -818,7 +825,7 @@
 			new WOW().init();
 		</script>
 		<script>
-			$(window).scroll(function() {
+			$(window).on("scroll load", function() {
 				if ($(document).scrollTop() > 0) {
 					$('nav').addClass('shrinkNav');
 				} else {

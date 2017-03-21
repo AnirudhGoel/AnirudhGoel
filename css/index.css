@@ -132,17 +132,18 @@
     font-weight: 400;
     opacity: 0.9;
 }
-.tech-box {
+.tech-box1, .tech-box2, .tech-box3 {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 1.2em;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    padding-top: 40px;
-    padding-bottom: 20px;
+    padding: 40px 11px 20px 11px;
     margin-bottom: 40px;
-    /*width: 90vw;*/
+    width: 270px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h3 {
     font-family: 'Lato', sans-serif !important;
@@ -183,7 +184,8 @@ ul {
     padding-left: 15px;
 }
 
-@media only screen and (min-width: 750px) {
+/*Rules for devices larger than Mobiles and Tablets*/
+@media only screen and (min-width: 768px) {
     .intern-panel-body {
         padding-top: 10px;
         padding-left: 0px;
@@ -229,6 +231,21 @@ ul {
     .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
         color: #fff;
         background-color: black;
+    }
+    .tech-box1, .tech-box2, .tech-box3 {
+        padding-top: 40px;
+        padding-bottom: 20px;
+        padding: 40px 4px 20px 4px;
+        margin-bottom: 40px;
+        width: 25vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .tech-box2 {
+        margin-top: 100px;
+    }
+    .tech-box3 {
+        margin-top: 200px;
     }
 }
 @media only screen and (max-width: 500px) {
