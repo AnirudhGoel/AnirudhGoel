@@ -58,7 +58,7 @@
     font-size: 20px;
 }
 .dp {
-    width: 250px;
+    width: 170px;
 }
 .headings {
     font-family: 'Josefin Sans', sans-serif;
@@ -186,6 +186,9 @@ ul {
 
 /*Rules for devices larger than Mobiles and Tablets*/
 @media only screen and (min-width: 768px) {
+    .dp {
+        width: 225px;
+    }
     .intern-panel-body {
         padding-top: 10px;
         padding-left: 0px;
@@ -258,4 +261,7 @@ ul {
     .headings {
         font-size: 60px;
     }
+    /*.dp {
+        width: 250px;
+    }*/
 }
