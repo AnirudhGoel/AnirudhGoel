@@ -1,5 +1,10 @@
 @import 'https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600|Lato:300,400';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
 
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
 .navbar {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
@@ -42,6 +47,7 @@
 }
 .name {
     text-align: center;
+    margin-top: 70px;
     color: white;
 }
 .raw-text {
@@ -53,12 +59,25 @@
 .intro-text {
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     color: #ffffff;
     font-size: 20px;
 }
-.dp {
-    width: 170px;
+.dps {
+    padding-top: 15vh;
+}
+/*.dp1, .dp4 {
+    width: 54%;
+}
+.dp2, .dp3 {
+    width: 100%;
+}*/
+.dp1, .dp3, .dp2 {
+    display: none;
+}
+.dp4 {
+    width: 40%;
+    margin-left: 30%;
 }
 .headings {
     font-family: 'Josefin Sans', sans-serif;
@@ -184,7 +203,7 @@ ul {
     padding-left: 15px;
 }
 
-/*Rules for devices larger than Mobiles and Tablets*/
+/* Rules for devices larger than Mobiles and Tablets */
 @media only screen and (min-width: 768px) {
     .intern-panel-body {
         padding-top: 10px;
@@ -247,13 +266,44 @@ ul {
     .tech-box3 {
         margin-top: 200px;
     }
+    .dp1, .dp4 {
+        margin: 0;
+        display: block;
+        width: 54%;
+    }
+    .dp2, .dp3 {
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
 }
+
+/* Rules for very large Monitors, like the ones at CERN :P; */
+@media only screen and (min-width: 1441px) {
+    .name {
+        margin-top: 13vh;
+    }
+}
+
+/* Rules for very small devices */
 @media only screen and (max-width: 500px) {
+    .name {
+        margin-top: 20px;
+    }
     .first-name {
         font-size: 60px;
     }
     .last-name {
         font-size: 60px;
+    }
+    .intro-text {
+        font-size: 15px;
+    }
+    .intro-text span {
+        font-size: 17px !important;
+    }
+    .dps {
+        padding-top: 80px;
     }
     .headings {
         font-size: 60px;
