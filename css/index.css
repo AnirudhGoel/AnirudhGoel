@@ -197,7 +197,7 @@ ul {
 /*Rules for devices larger than Mobiles and Tablets*/
 @media only screen and (min-width: 768px) {
     .dp {
-        width: 225px;
+        width: 195px;
     }
     .intern-panel-body {
         padding-top: 10px;
@@ -275,5 +275,16 @@ ul {
     }
     .headings {
         font-size: 60px;
+    }
+}
+
+/* For very large devices, such as CERN Monitors */
+@media only screen and (min-width: 1700px) {
+    .dp {
+        margin-top: 10vh;
+        width: 225px;
+    }
+    .name {
+        margin-top: 40px;
     }
 }
