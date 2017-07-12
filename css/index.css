@@ -132,6 +132,16 @@
     font-weight: 400;
     opacity: 0.9;
 }
+.cern-intern-box {
+    box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+    -moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+    -webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    width: 95%;
+    background-color: rgba(255, 255, 255, 0.7);    
+}
 .tech-box1, .tech-box2, .tech-box3 {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
@@ -250,7 +260,12 @@ ul {
     .tech-box3 {
         margin-top: 200px;
     }
+    .cern-intern-box {
+        width: 97.6%;
+    }
 }
+
+/* For very small devices */
 @media only screen and (max-width: 500px) {
     .first-name {
         font-size: 60px;
@@ -261,7 +276,4 @@ ul {
     .headings {
         font-size: 60px;
     }
-    /*.dp {
-        width: 250px;
-    }*/
 }
