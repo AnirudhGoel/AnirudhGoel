@@ -202,16 +202,21 @@
 												<span style="font-size: 24px; padding-top: 10px; padding-bottom: 10px; display: block;"><a href="https://phonebook.cern.ch/phonebook/#personDetails/?id=820773"><strong>CERN</strong></a></span>
 												<br>
 												<div class="col-sm-6 intern-post"><strong>Summer Student</strong></div>
-												<div class="col-sm-6 intern-time">June '17 - Present</div>
+												<div class="col-sm-6 intern-time">June '17 - Sept '17</div>
 											</div>
 											<br><br>
 											<ul>
-												<li> Setup a <strong>ZeroMQ server</strong> to receive messages from the CERN ALICE machine, and pass them to the application server to generate <strong>Web Notifications</strong> using <strong>Web Sockets</strong>.</li>
-												<li> Designed a Push Notification system using 'web-push' Node.js Package to notify users about occurrence of different events in an effective manner. </li>
-												<li> Using Mocha Test framework for running tests on Node.js (Backend) </li>
-												<li> Using Qunit Test framework for running tests on jQuery (Frontend) </li>
-												<li> Using TravisCI for Continuous Integration </li>
-												<li> Technologies - ZeroMQ, Node.js, Express Framework, Web Sockets, 'web-push' package, Gulp, Mocha Test framework, QUnit Test Framework, TravisCI </li>
+												<li>Developed the <strong>Web Notification Infrastructure</strong> for the future <strong>ALICE O<sup>2</sup> System.</strong></li>
+												<li>The infrastructure can push the notification via 3 different means of transport:</li>
+												<ul>
+													<li>Using Web Sockets,</li>
+													<li>Using Service Workers (Chrome, Mozilla and other major browsers),</li>
+													<li>Using Apple Push Notification Service (APNS) for Safari.</li>
+												</ul>
+												<li>Gave a presentation during ALICE Work Package 8 meeting on ‘Web Push Notifications’. This presentation included a brief introduction of Push Notifications, Service Workers and a live demo of Push Notifications in browsers that support Service Workers.</li>
+												<li>Covered the code with Mocha tests, with coverage as high as 91.3%, provided with JSDoc documentation and used Travis for continuous integration.</li>
+												<li>Created a unified notification trigger which can send notifications to both, browsers supporting service workers and to APNS with a single line terminal command.</li>
+												<li>All of this code and corresponding documentation is available on ALICE <a href="https://github.com/AliceO2Group/ControlGui">ControlGUI</a> and <a href="https://github.com/AliceO2Group/Gui">GUI</a> repository.</li>
 											</ul>
 										</div>
 									</div>
