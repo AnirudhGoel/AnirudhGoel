@@ -64,13 +64,30 @@
 						<span class='icon-bar'></span>
 					</button>
 					<ul>
-						<a class='navbar-brand active' href="index.html">
+						<a class='navbar-brand active' onclick="autoScroll('page1');">
 							Anirudh Goel
 						</a>
 					</ul>
 				</div>
 				<div class='collapse navbar-collapse' id='myNavbar'>
 					<ul class='nav navbar-nav'>
+						<li>
+							<a id="internButton" onclick="autoScroll('page3');">
+								Internships &amp; Experiences
+							</a>
+						</li>
+						<li>
+							<a id="projButton" onclick="autoScroll('page2');">
+								Projects
+							</a>
+						</li>
+						<li>
+							<a id="techButton" onclick="autoScroll('page4');">
+								Technologies
+							</a>
+						</li>
+					</ul>
+					<ul class='nav navbar-nav navbar-right'>
 						<li>
 							<a href="https://in.linkedin.com/in/goelanirudh" target='_blank'>
 								<i class='fa fa-linkedin'></i>
@@ -835,6 +852,12 @@
 					$('nav').removeClass('shrinkNav');
 				}
 			});
+
+			function autoScroll(sectionClass) {
+				$('html, body').animate({
+					scrollTop: $("." + sectionClass).offset().top
+				}, 750);
+			}
 		</script>
 		<script>
 			console.log("%cHello ! This is Anirudh Goel.", "color: green");

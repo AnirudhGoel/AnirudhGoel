@@ -1,291 +1,292 @@
-@import 'https://fonts.googleapis.com/css?family=Josefin+Sans:100,300,400,600|Lato:300,400';
-
 .navbar {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
 }
 .page1 {
-    min-height: 100vh;
-    background-image: url("../img/back1.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+	min-height: 100vh;
+	background-image: url("../img/back1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .page2 {
-    background-color: #F0F0F0;
+	background-color: #F0F0F0;
 }
 .page3 {
-    background-image: url("../img/back3.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("../img/back3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .page4 {
-    background-image: url("../img/back4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+	background-image: url("../img/back4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
 }
 .page5 {
-    background-image: url("../img/back5.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
+	background-image: url("../img/back5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .first-name {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    font-size: 80px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 80px;
 }
 .last-name {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 100;
-    font-size: 80px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	font-size: 80px;
 }
 .name {
-    text-align: center;
-    color: white;
+	text-align: center;
+	color: white;
 }
 .raw-text {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 30px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
 }
 .intro-text {
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 300;
-    color: #ffffff;
-    font-size: 20px;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 20px;
 }
 .dp {
-    width: 170px;
-    padding: 2px;
+	width: 170px;
+	padding: 2px;
 }
 .headings {
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 400;
-    font-size: 80px;
-    text-align: center;
-    text-shadow: 5px 5px 5px #FFFFFF;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	text-align: center;
+	text-shadow: 5px 5px 5px #FFFFFF;
 }
 .proj-img {
-    height: 150px;
-    width: 150px;
-    /*margin-left: 150px;*/
+	height: 150px;
+	width: 150px;
+	/*margin-left: 150px;*/
 }
 .proj-text {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    font-size: 13px;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
 }
 .panel {
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
 }
 .proj-panel {
-    width: 80%;
-    padding-bottom: 40px;
-    /*margin-left: 70px;*/
+	width: 80%;
+	padding-bottom: 40px;
+	/*margin-left: 70px;*/
 }
 .proj-panel-heading {
-    background-color: #f5f5f5;
-    vertical-align: center;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-size: 15px;
+	background-color: #f5f5f5;
+	vertical-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 15px;
 }
 .intern-panel-body {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-bottom: 20px;
-    padding-right: 10px;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-right: 10px;
 }
 .intern-panel-image {
-    padding-top: 20px;
+	padding-top: 20px;
 }
 .intern-box {
-    box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    -moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    -webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    margin-top: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    width: 95%;
-    background-color: rgba(255, 255, 255, 0.7);
+	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	width: 95%;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 .intern-post, .intern-time {
-    background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.2);
 }
 .intern-box a {
-    color: #337ab7;
+	color: #337ab7;
 }
 .intern-img {
-    margin-top: 10px;
-    height: 150px;
-    width: 150px;
+	margin-top: 10px;
+	height: 150px;
+	width: 150px;
 }
 .intern-panel {
-    width: 80%;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    opacity: 0.9;
+	width: 80%;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	opacity: 0.9;
 }
 .cern-intern-box {
-    box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    -moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    -webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    margin-top: 20px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 400;
-    width: 95%;
-    background-color: rgba(255, 255, 255, 0.7);    
+	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	width: 95%;
+	background-color: rgba(255, 255, 255, 0.7);    
 }
 .tech-box1, .tech-box2, .tech-box3 {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: white;
-    font-size: 1.2em;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    padding: 40px 11px 20px 11px;
-    margin-bottom: 40px;
-    width: 270px;
-    margin-left: auto;
-    margin-right: auto;
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	padding: 40px 11px 20px 11px;
+	margin-bottom: 40px;
+	width: 270px;
+	margin-left: auto;
+	margin-right: auto;
 }
 h3 {
-    font-family: 'Lato', sans-serif !important;
-    font-weight: 300 !important;
-    color: red !important;
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 300 !important;
+	color: red !important;
 }
 .not-work-box {
-    box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    -moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    -webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 5px 5px 10px 5px;
+	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 5px 5px 10px 5px;
 }
 .not-work-text {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    padding-left: 10px;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	padding-left: 10px;
 }
 .foot-text {
-    background-color: rgba(0, 0, 0, 0.4);
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
-    /*position: relative;*/
-    /*bottom: 10px;*/
-    color: white;
-    padding: 10px 10px 10px 10px;
+	background-color: rgba(0, 0, 0, 0.4);
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	/*position: relative;*/
+	/*bottom: 10px;*/
+	color: white;
+	padding: 10px 10px 10px 10px;
 }
 .box-padd {
-    padding-top: 30px;
-    padding-bottom: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 body {
-    overflow-x: hidden;
+	overflow-x: hidden;
 }
 ul {
-    padding-left: 15px;
+	padding-left: 15px;
+}
+#internButton, #projButton, #techButton, .navbar-brand {
+	cursor: pointer;
 }
 
 /*Rules for devices larger than Mobiles and Tablets*/
 @media only screen and (min-width: 768px) {
-    .dp {
-        width: 250px;
-    }
-    .intern-panel-body {
-        padding-top: 10px;
-        padding-left: 0px;
-        padding-bottom: 10px;
-    }
-    .intern-panel-image {
-        padding-left: 5px;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-    .intern-post {
-        border-right-style: solid;
-        border-right-width: 1px;
-        border-color: white;
-        margin-bottom: 5px;
-    }
-    .intern-time {
-        border-left-style: solid;
-        border-left-width: 1px;
-        border-color: white;
-        margin-bottom: 5px;
-    }
-    .navbar {
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 600;
-        font-size: 15px;
-        height: 75px;
-        border: none;
-        background-color: transparent;
-        -webkit-transition: all 0.4s ease;
-        transition: all 0.4s ease;
-    }
-    .shrinkNav {
-        height: 50px;
-        /*background-color: #222;*/
-        background-color: white;
-        font-size: 15px;
-    }
-    .navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
-        color: #fff;
-        background-color: black;
-    }
-    .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
-        color: #fff;
-        background-color: black;
-    }
-    .tech-box1, .tech-box2, .tech-box3 {
-        padding-top: 40px;
-        padding-bottom: 20px;
-        padding: 40px 4px 20px 4px;
-        margin-bottom: 40px;
-        width: 90%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .tech-box2 {
-        margin-top: 100px;
-    }
-    .tech-box3 {
-        margin-top: 200px;
-    }
-    .cern-intern-box {
-        width: 97.6%;
-    }
+	.dp {
+		width: 250px;
+	}
+	.intern-panel-body {
+		padding-top: 10px;
+		padding-left: 0px;
+		padding-bottom: 10px;
+	}
+	.intern-panel-image {
+		padding-left: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.intern-post {
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-color: white;
+		margin-bottom: 5px;
+	}
+	.intern-time {
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-color: white;
+		margin-bottom: 5px;
+	}
+	.navbar {
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+		font-size: 15px;
+		height: 75px;
+		border: none;
+		background-color: transparent;
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+	.shrinkNav {
+		height: 50px;
+		/*background-color: #222;*/
+		background-color: white;
+		font-size: 15px;
+	}
+	.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+		color: #fff;
+		background-color: black;
+	}
+	.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+		color: #fff;
+		background-color: black;
+	}
+	.tech-box1, .tech-box2, .tech-box3 {
+		padding-top: 40px;
+		padding-bottom: 20px;
+		padding: 40px 4px 20px 4px;
+		margin-bottom: 40px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tech-box2 {
+		margin-top: 100px;
+	}
+	.tech-box3 {
+		margin-top: 200px;
+	}
+	.cern-intern-box {
+		width: 97.6%;
+	}
 }
 
 /* For very small devices */
 @media only screen and (max-width: 500px) {
-    .first-name {
-        font-size: 60px;
-    }
-    .last-name {
-        font-size: 60px;
-    }
-    .headings {
-        font-size: 60px;
-    }
+	.first-name {
+		font-size: 60px;
+	}
+	.last-name {
+		font-size: 60px;
+	}
+	.headings {
+		font-size: 60px;
+	}
 }
 
 /* For very large devices, such as CERN Monitors */
 @media only screen and (min-width: 1700px) {
-    .dp {
-        margin-top: 10vh;
-        width: 225px;
-    }
-    .name {
-        margin-top: 40px;
-    }
+	.dp {
+		margin-top: 10vh;
+		width: 225px;
+	}
+	.name {
+		margin-top: 40px;
+	}
 }
