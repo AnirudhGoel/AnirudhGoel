@@ -31,12 +31,12 @@
 .first-name {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
-	font-size: 80px;
+	font-size: 40px;
 }
 .last-name {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 100;
-	font-size: 80px;
+	font-size: 40px;
 }
 .name {
 	text-align: center;
@@ -53,11 +53,17 @@
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 300;
 	color: #ffffff;
-	font-size: 20px;
+	font-size: 16px;
 }
 .dp {
-	width: 170px;
-	padding: 2px;
+	width: 200px;
+	margin: 2px;
+	border: solid white 3px;
+	border-radius: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12vh;
 }
 .headings {
 	font-family: 'Josefin Sans', sans-serif;
@@ -196,10 +202,20 @@ ul {
 	cursor: pointer;
 }
 
-/*Rules for devices larger than Mobiles and Tablets*/
+/* Rules for devices larger than Mobiles and Tablets */
 @media only screen and (min-width: 768px) {
+	.first-name, .last-name {
+		font-size: 80px;
+	}
 	.dp {
-		width: 250px;
+		margin-top: 15vh;
+		margin-bottom: 2vh;
+		width: 270px;
+	}
+	.intro-text {
+		margin-top: 2vh;
+		font-size: 22px;
+		font-weight: 300;
 	}
 	.intern-panel-body {
 		padding-top: 10px;
