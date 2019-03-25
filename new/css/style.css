@@ -72,11 +72,10 @@
 }
 .name {
 	text-align: center;
-	color: white;
-	padding-left: 25vw;
+	padding-left: 15vw;
 }
 #vivus-name {
-	width: 50vw;
+	width: 70vw;
 }
 .raw-text {
 	text-align: center;
@@ -231,8 +230,12 @@ ul {
 
 /* Rules for devices larger than Mobiles and Tablets */
 @media only screen and (min-width: 768px) {
-	.first-name, .last-name {
-		font-size: 80px;
+	.name {
+		text-align: center;
+		padding-left: 25vw;
+	}
+	#vivus-name {
+		width: 50vw;
 	}
 	.dp {
 		margin-top: 15vh;
