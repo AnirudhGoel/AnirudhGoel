@@ -43,7 +43,13 @@
 	background: #2E1114;
 
 }
-
+.background--wave {
+    background-position-y: top;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-image: url(../img/img_bg_wave.png);
+}
 
 
 
@@ -244,6 +250,9 @@ ul {
 	.name {
 		text-align: center;
 		padding-left: 25vw;
+	}
+	.page3 {
+		padding-top: 20em;
 	}
 	#vivus-name {
 		width: 50vw;
