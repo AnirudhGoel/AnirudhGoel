@@ -764,56 +764,14 @@
 		<script src="//cdn.jsdelivr.net/npm/vivus@latest/dist/vivus.min.js"></script>
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-		<script defer src="//use.fontawesome.com/768a40f80a.js"></script>
+		<script src="//use.fontawesome.com/768a40f80a.js"></script>
+
+		<!-- Can include these scripts for additional effects later -->
 		<!-- <script src="//cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script> -->
-		
+		<!-- <script src="https://github.com/ivmello/easeScroll"></script> -->
+		<!-- EaseScroll doesn't support Safari as of now -->
+
 		<script src="js/wow.min.js"></script>
-		<script>
-			var viv = new Vivus('vivus-name', {
-				type: 'delayed',
-				duration: 150,
-				file: 'img/Anirudh Goel J.svg',
-				pathTimingFunction: Vivus.EASE
-			}, mycallback);
-
-			function mycallback() {
-				viv.stop()
-			}
-		</script>
-		<script>
-			function changeAnimation() {
-				var width = $(window).width();
-				if(width < 768) {
-					$(".wow").removeClass("fadeInUp fadeInLeft fadeInRight fadeIn fadeInUp").addClass("fadeInUp");
-				}
-			}
-			// Call function on page load
-			changeAnimation();
-			// Call WOW.js
-			new WOW().init();
-		</script>
-		<script>
-			$(window).on("scroll load", function() {
-				if ($(document).scrollTop() > 0) {
-					$('nav').addClass('shrinkNav');
-				} else {
-					$('nav').removeClass('shrinkNav');
-				}
-			});
-
-			function autoScroll(sectionClass) {
-				$('html, body').animate({
-					scrollTop: $("." + sectionClass).offset().top
-				}, 750);
-			}
-		</script>
-		<script>
-			// $('.page3').parallax({imageSrc: 'img/white.jpg'});
-		</script>
-		<script>
-			console.log("%cHello ! This is Anirudh Goel.", "color: green");
-			console.log("%cYou have opened the console of my website.", "color: indigo");
-			console.log("%cAlways Hungry !", "color: #FCA311");
-		</script>
+		<script src="js/script.js"></script>
 	</body>
 </html>
