@@ -3,7 +3,6 @@
 	font-weight: 600;
 	font-size: 15px;
 }
-
 .loader {
     position: fixed;
     left: 0px;
@@ -12,7 +11,6 @@
     height: 100%;
     z-index: 9999;
     background: url('../img/loader.gif') 50% 50% no-repeat rgb(249,249,249);
-    /*opacity: .8;*/
 }
 .page1 {
 	min-height: 100vh;
@@ -25,23 +23,8 @@
 	background-color: #F0F0F0;
 }
 .page3 {
-	padding-top: 50px;
-	padding-bottom: 50px;
-	/*background-image: url("../img/back3.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;*/
-
-	/*background: linear-gradient(219deg, #e0c3fc, #8ec5fc);
-	background-size: 400% 400%;
-
-	-webkit-animation: AnimationName 12s ease infinite;
-	-moz-animation: AnimationName 12s ease infinite;
-	-o-animation: AnimationName 12s ease infinite;
-	animation: AnimationName 12s ease infinite;*/
-
-
-	background: #2E1114;
-
+	padding-top: 8em;
+	background: #FCFCFC;
 }
 .background--wave {
     background-position-y: top;
@@ -50,32 +33,6 @@
     background-size: contain;
     background-image: url(../img/img_bg_wave.png);
 }
-
-
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@-o-keyframes AnimationName {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 11%}
-    50%{background-position:100% 90%}
-    100%{background-position:0% 11%}
-}
-
-
-
 .page4 {
 	background-image: url("../img/back4.jpg");
 	background-repeat: no-repeat;
@@ -120,9 +77,9 @@
 .headings {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
-	font-size: 80px;
+	font-size: 4em;
 	text-align: center;
-	text-shadow: 5px 5px 5px #FFFFFF;
+	/*text-shadow: 5px 5px 5px #FFFFFF;*/
 }
 .proj-img {
 	height: 150px;
@@ -154,30 +111,26 @@
 	font-size: 15px;
 }
 .intern-panel-body {
-	padding-top: 20px;
-	padding-left: 10px;
-	padding-bottom: 20px;
-	padding-right: 10px;
-	color: #333;
+	padding: 20px 20px 20px 20px;
+	color: #373d3f;
 }
 .intern-panel-image {
 	padding-top: 20px;
 }
 .intern-box {
-	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-	margin-top: 20px;
+	margin-top: 3em;
 	font-family: 'Open Sans', sans-serif;
+	border-radius: 10px;
 	font-weight: 400;
 	width: 95%;
-	background-color: rgba(255, 255, 255, 0.7);
+	background-color: rgba(127, 127, 127, 0.1);
 }
 .intern-post, .intern-time {
 	background-color: rgba(0, 0, 0, 0.2);
 }
-.intern-box a {
-	color: #337ab7;
+.intern-box a, .cern-intern-box a {
+	/*color: #337ab7;*/
+	color: #5b881e;
 }
 .intern-img {
 	margin-top: 10px;
@@ -192,14 +145,12 @@
 	opacity: 0.9;
 }
 .cern-intern-box {
-	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
-	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	border-radius: 10px;
 	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	width: 95%;
-	background-color: rgba(255, 255, 255, 0.7);    
+	background-color: rgba(127, 127, 127, 0.1);
 }
 .tech-box1, .tech-box2, .tech-box3 {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -213,6 +164,7 @@
 	width: 270px;
 	margin-left: auto;
 	margin-right: auto;
+	border-radius: 10px;
 }
 .tech-box1 a, .tech-box2 a, .tech-box3 a {
 	color: white;
@@ -261,6 +213,9 @@ ul {
 		margin-top: 15vh;
 		margin-bottom: 2vh;
 		width: 270px;
+	}
+	.headings {
+		font-size: 80px;
 	}
 	.intro-text {
 		margin-top: 2vh;
@@ -333,20 +288,8 @@ ul {
 	}
 }
 
-/* For very small devices */
-@media only screen and (max-width: 500px) {
-	.first-name {
-		font-size: 60px;
-	}
-	.last-name {
-		font-size: 60px;
-	}
-	.headings {
-		font-size: 60px;
-	}
-}
 
-/* For very large devices, such as CERN Monitors */
+/* For very large devices, such as CERN Monitors xP */
 @media only screen and (min-width: 1700px) {
 	.dp {
 		margin-top: 10vh;
