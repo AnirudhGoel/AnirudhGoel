@@ -24,7 +24,7 @@
 }
 .page3 {
 	padding-top: 8em;
-	background: #FCFCFC;
+	background: rgba(0, 0, 0, 0.04);
 }
 .background--wave {
     background-position-y: top;
@@ -91,7 +91,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 13px;
-	color: #333;
+	color: #5A5A5A;
 }
 .panel {
 	border-style: solid;
@@ -104,15 +104,21 @@
 	/*margin-left: 70px;*/
 }
 .proj-panel-heading {
-	background-color: #f5f5f5;
+	/*background-color: rgba(0, 0, 0, 0.02);*/
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
 	vertical-align: center;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	font-size: 15px;
 }
+.org-name {
+	font-size: 2.6em;
+	padding: 10px 0px 10px 0px;
+}
 .intern-panel-body {
 	padding: 20px 20px 20px 20px;
-	color: #373d3f;
+	color: #5A5A5A;
 }
 .intern-panel-image {
 	padding-top: 20px;
@@ -123,10 +129,14 @@
 	border-radius: 10px;
 	font-weight: 400;
 	width: 95%;
-	background-color: rgba(127, 127, 127, 0.1);
+	background-color: white;
 }
 .intern-post, .intern-time {
-	background-color: rgba(0, 0, 0, 0.2);
+	background-color: rgba(0, 0, 0, 0.05);
+	/*background-color: rgba(0, 0, 0, 0.02);*/
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
 }
 .intern-box a, .cern-intern-box a {
 	/*color: #337ab7;*/
@@ -150,7 +160,7 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	width: 95%;
-	background-color: rgba(127, 127, 127, 0.1);
+	background-color: white;
 }
 .tech-box1, .tech-box2, .tech-box3 {
 	background-color: rgba(0, 0, 0, 0.7);
@@ -164,7 +174,7 @@
 	width: 270px;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 10px;
+	border-radius: 20px;
 }
 .tech-box1 a, .tech-box2 a, .tech-box3 a {
 	color: white;
@@ -237,12 +247,16 @@ ul {
 		border-right-width: 1px;
 		border-color: white;
 		margin-bottom: 5px;
+		padding-top: 4px;
+		padding-bottom: 4px;
 	}
 	.intern-time {
 		border-left-style: solid;
 		border-left-width: 1px;
 		border-color: white;
 		margin-bottom: 5px;
+		padding-top: 4px;
+		padding-bottom: 4px;
 	}
 	.navbar {
 		font-family: 'Josefin Sans', sans-serif;
