@@ -126,7 +126,7 @@
 .intern-box {
 	margin-top: 3em;
 	font-family: 'Open Sans', sans-serif;
-	border-radius: 10px;
+	border-radius: 20px;
 	font-weight: 400;
 	width: 95%;
 	background-color: white;
@@ -155,7 +155,7 @@
 	opacity: 0.9;
 }
 .cern-intern-box {
-	border-radius: 10px;
+	border-radius: 20px;
 	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
