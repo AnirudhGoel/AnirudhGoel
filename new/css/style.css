@@ -139,8 +139,8 @@
 	border-radius: 5px;
 }
 .intern-box a, .cern-intern-box a {
-	/*color: #337ab7;*/
-	color: #5b881e;
+	color: #337ab7;
+	/*color: #5b881e;*/
 }
 .intern-img {
 	margin-top: 10px;
