@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('../img/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
 }
 .page1 {
 	min-height: 100vh;
