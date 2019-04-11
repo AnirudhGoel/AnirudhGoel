@@ -10,7 +10,7 @@
     width: 100%;
     height: 100%;
     z-index: 9999;
-    background: url('../img/loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
 }
 .page1 {
 	min-height: 100vh;
@@ -20,9 +20,6 @@
 	background-repeat: no-repeat;
 }
 .page2 {
-	background-color: #F0F0F0;
-}
-.page3 {
 	padding-top: 8em;
 	background: rgba(0, 0, 0, 0.04);
 }
@@ -32,6 +29,9 @@
     background-repeat: repeat-x;
     background-size: contain;
     background-image: url(../img/img_bg_wave.png);
+}
+.page3 {
+	background-color: #F0F0F0;
 }
 .page4 {
 	background-image: url("../img/back4.jpg");
@@ -171,7 +171,7 @@
 	font-weight: 300;
 	padding: 40px 11px 20px 11px;
 	margin-bottom: 40px;
-	width: 270px;
+	width: 85%;
 	margin-left: auto;
 	margin-right: auto;
 	border-radius: 20px;
@@ -213,7 +213,7 @@ ul {
 		text-align: center;
 		padding-left: 25vw;
 	}
-	.page3 {
+	.page2 {
 		padding-top: 20em;
 	}
 	#vivus-name {
