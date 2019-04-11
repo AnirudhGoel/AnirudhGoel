@@ -20,9 +20,6 @@
 	background-repeat: no-repeat;
 }
 .page2 {
-	background-color: #F0F0F0;
-}
-.page3 {
 	padding-top: 8em;
 	background: rgba(0, 0, 0, 0.04);
 }
@@ -32,6 +29,9 @@
     background-repeat: repeat-x;
     background-size: contain;
     background-image: url(../img/img_bg_wave.png);
+}
+.page3 {
+	background-color: #F0F0F0;
 }
 .page4 {
 	background-image: url("../img/back4.jpg");
@@ -213,7 +213,7 @@ ul {
 		text-align: center;
 		padding-left: 25vw;
 	}
-	.page3 {
+	.page2 {
 		padding-top: 20em;
 	}
 	#vivus-name {
