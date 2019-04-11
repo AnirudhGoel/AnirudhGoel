@@ -3,35 +3,19 @@
 	font-weight: 600;
 	font-size: 15px;
 }
-.loader {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
-}
 .page1 {
 	min-height: 100vh;
-	/*background-image: url("../img/back1.jpg");*/
-	background-color: #222629;
+	background-image: url("../img/back1.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
 .page2 {
-	padding-top: 8em;
-	background: rgba(0, 0, 0, 0.04);
-}
-.background--wave {
-    background-position-y: top;
-    background-repeat-y: no-repeat;
-    background-repeat: repeat-x;
-    background-size: contain;
-    background-image: url(../img/img_bg_wave.png);
+	background-color: #F0F0F0;
 }
 .page3 {
-	background-color: #F0F0F0;
+	background-image: url("../img/back3.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .page4 {
 	background-image: url("../img/back4.jpg");
@@ -44,16 +28,23 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.first-name {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+}
+.last-name {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 100;
+	font-size: 40px;
+}
 .name {
 	text-align: center;
-	padding-left: 15vw;
-}
-#vivus-name {
-	width: 70vw;
+	color: white;
 }
 .raw-text {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 30px;
 }
@@ -77,9 +68,9 @@
 .headings {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: 400;
-	font-size: 4em;
+	font-size: 80px;
 	text-align: center;
-	/*text-shadow: 5px 5px 5px #FFFFFF;*/
+	text-shadow: 5px 5px 5px #FFFFFF;
 }
 .proj-img {
 	height: 150px;
@@ -88,10 +79,9 @@
 }
 .proj-text {
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 13px;
-	color: #5A5A5A;
 }
 .panel {
 	border-style: solid;
@@ -104,43 +94,36 @@
 	/*margin-left: 70px;*/
 }
 .proj-panel-heading {
-	/*background-color: rgba(0, 0, 0, 0.02);*/
-	background-color: rgba(0, 0, 0, 0.05);
-	border-radius: 5px;
+	background-color: #f5f5f5;
 	vertical-align: center;
 	padding-top: 7px;
 	padding-bottom: 7px;
 	font-size: 15px;
 }
-.org-name {
-	font-size: 2.6em;
-	padding: 10px 0px 10px 0px;
-}
 .intern-panel-body {
-	padding: 20px 20px 20px 20px;
-	color: #5A5A5A;
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-bottom: 20px;
+	padding-right: 10px;
 }
 .intern-panel-image {
 	padding-top: 20px;
 }
 .intern-box {
-	margin-top: 3em;
-	font-family: 'Open Sans', sans-serif;
-	border-radius: 20px;
+	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	margin-top: 20px;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	width: 95%;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 .intern-post, .intern-time {
-	background-color: rgba(0, 0, 0, 0.05);
-	/*background-color: rgba(0, 0, 0, 0.02);*/
-	padding-top: 2px;
-	padding-bottom: 2px;
-	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.2);
 }
-.intern-box a, .cern-intern-box a {
+.intern-box a {
 	color: #337ab7;
-	/*color: #5b881e;*/
 }
 .intern-img {
 	margin-top: 10px;
@@ -150,31 +133,32 @@
 .intern-panel {
 	width: 80%;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	opacity: 0.9;
 }
 .cern-intern-box {
-	border-radius: 20px;
+	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
 	margin-top: 20px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	width: 95%;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.7);    
 }
 .tech-box1, .tech-box2, .tech-box3 {
 	background-color: rgba(0, 0, 0, 0.7);
 	color: white;
 	font-size: 1.2em;
 	text-align: center;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	padding: 40px 11px 20px 11px;
 	margin-bottom: 40px;
-	width: 85%;
+	width: 270px;
 	margin-left: auto;
 	margin-right: auto;
-	border-radius: 20px;
 }
 .tech-box1 a, .tech-box2 a, .tech-box3 a {
 	color: white;
@@ -183,15 +167,33 @@
 	color: grey;
 	text-decoration: none;
 }
+h3 {
+	font-family: 'Lato', sans-serif !important;
+	font-weight: 300 !important;
+	color: red !important;
+}
+.not-work-box {
+	box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-moz-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	-webkit-box-shadow: 2px 2px 10px 0px rgba(111, 102, 102, 0.4);
+	background-color: rgba(255, 255, 255, 0.7);
+	padding: 5px 5px 10px 5px;
+}
+.not-work-text {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	font-size: 14px;
+	padding-left: 10px;
+}
 .foot-text {
 	background-color: rgba(0, 0, 0, 0.4);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
 	/*position: relative;*/
 	/*bottom: 10px;*/
 	color: white;
-	padding: 10px 20px 10px 20px;
+	padding: 10px 10px 10px 10px;
 }
 .box-padd {
 	padding-top: 30px;
@@ -209,23 +211,13 @@ ul {
 
 /* Rules for devices larger than Mobiles and Tablets */
 @media only screen and (min-width: 768px) {
-	.name {
-		text-align: center;
-		padding-left: 25vw;
-	}
-	.page2 {
-		padding-top: 20em;
-	}
-	#vivus-name {
-		width: 50vw;
+	.first-name, .last-name {
+		font-size: 80px;
 	}
 	.dp {
 		margin-top: 15vh;
 		margin-bottom: 2vh;
 		width: 270px;
-	}
-	.headings {
-		font-size: 80px;
 	}
 	.intro-text {
 		margin-top: 2vh;
@@ -247,16 +239,12 @@ ul {
 		border-right-width: 1px;
 		border-color: white;
 		margin-bottom: 5px;
-		padding-top: 4px;
-		padding-bottom: 4px;
 	}
 	.intern-time {
 		border-left-style: solid;
 		border-left-width: 1px;
 		border-color: white;
 		margin-bottom: 5px;
-		padding-top: 4px;
-		padding-bottom: 4px;
 	}
 	.navbar {
 		font-family: 'Josefin Sans', sans-serif;
@@ -302,8 +290,20 @@ ul {
 	}
 }
 
+/* For very small devices */
+@media only screen and (max-width: 500px) {
+	.first-name {
+		font-size: 60px;
+	}
+	.last-name {
+		font-size: 60px;
+	}
+	.headings {
+		font-size: 60px;
+	}
+}
 
-/* For very large devices, such as CERN Monitors xP */
+/* For very large devices, such as CERN Monitors */
 @media only screen and (min-width: 1700px) {
 	.dp {
 		margin-top: 10vh;
