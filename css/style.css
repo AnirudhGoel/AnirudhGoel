@@ -31,10 +31,9 @@
     background-image: url(../img/img_bg_wave.png);
 }
 .page3 {
-	background-color: #F0F0F0;
+	
 }
 .page4 {
-	background-image: url("../img/back4.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
@@ -84,10 +83,10 @@
 .proj-img {
 	height: 150px;
 	width: 150px;
-	/*margin-left: 150px;*/
 }
 .proj-text {
 	text-align: center;
+	padding-top: 3em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	font-size: 13px;
@@ -96,7 +95,7 @@
 .panel {
 	border-style: solid;
 	border-width: 2px;
-	border-color: black;
+	border-color: white;
 }
 .proj-panel {
 	width: 80%;
