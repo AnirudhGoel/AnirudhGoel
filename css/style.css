@@ -43,6 +43,16 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.footer {
+	padding: 50px 20px 0 20px;
+	background-color: #222629;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.footer label {
+	font-weight: 300;
+	font-size: 1.5em;
+}
 .name {
 	text-align: center;
 	padding-left: 15vw;
@@ -187,10 +197,22 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 18px;
-	/*position: relative;*/
-	/*bottom: 10px;*/
 	color: white;
 	padding: 10px 20px 10px 20px;
+	margin-top: 50px;
+}
+#tlemail {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+	color: #222629;
+}
+.subscribe-button {
+	color: #222629;
+	padding: 10px 15px 10px 15px;
+	background-color: #86c232;
+	border: none;
+	border-radius: 7px;
 }
 .box-padd {
 	padding-top: 30px;
@@ -206,6 +228,7 @@ ul {
 	cursor: pointer;
 }
 
+/* Fix navbar responsiveness breakpoint issue */
 @media (max-width: 1024px) {
 	.navbar-header {
 		float: none;
