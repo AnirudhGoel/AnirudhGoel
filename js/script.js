@@ -53,7 +53,7 @@ Vivus for name animation
 var viv = new Vivus('vivus-name', {
 	type: 'delayed',
 	duration: 150,
-	file: '../img/Anirudh Goel J.svg',
+	file: '../img/Anirudh Goel Text.svg',
 	pathTimingFunction: Vivus.EASE
 }, mycallback);
 
