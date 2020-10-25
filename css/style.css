@@ -159,7 +159,7 @@ span.cursor.typing {
 	padding-top: 20px;
 }
 .intern-box {
-	margin-top: 3em;
+	margin-top: 20px;
 	font-family: 'Open Sans', sans-serif;
 	border-radius: 20px;
 	font-weight: 400;
@@ -188,14 +188,6 @@ span.cursor.typing {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
 	opacity: 0.9;
-}
-.cern-intern-box {
-	border-radius: 20px;
-	margin-top: 20px;
-	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
-	width: 95%;
-	background-color: white;
 }
 .tech-box1, .tech-box2, .tech-box3 {
 	background-color: rgba(0, 0, 0, 0.7);
