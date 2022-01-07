@@ -1,0 +1,393 @@
+/* New font - Source Sans Pro */
+
+.navbar {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 600;
+	font-size: 15px;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('../img/loaders/2.gif') 50% 50% no-repeat rgb(255,255,255);
+}
+.page1 {
+	min-height: 100vh;
+	/*background-image: url("../img/back1.jpg");*/
+	background-color: #222629;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.page2 {
+	padding-top: 8em;
+	background: rgba(0, 0, 0, 0.04);
+}
+.background--wave {
+    background-position-y: top;
+    background-repeat-y: no-repeat;
+    background-repeat: repeat-x;
+    background-size: contain;
+    background-image: url(../img/img_bg_wave.png);
+}
+.page3 {
+
+}
+.page4 {
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+}
+.page5 {
+	background-image: url("../img/back5.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.footer {
+	padding: 50px 20px 0 20px;
+	background-color: #222629;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+.footer label {
+	font-weight: 300;
+	font-size: 1.5em;
+}
+.name {
+	text-align: center;
+	padding-left: 15vw;
+}
+#vivus-name {
+	width: 70vw;
+}
+
+/*Typing Text Animation*/
+span.typed-text {
+	font-weight: normal;
+	color: #86c232;
+}
+span.cursor {
+	display: inline-block;
+	background-color: white;
+	margin-left: 0.1rem;
+	width: 2px;
+	animation: blink 1s infinite;
+}
+span.cursor.typing {
+	animation: none;
+}
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+.raw-text {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 30px;
+}
+.intro-text {
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 300;
+	color: #ffffff;
+	font-size: 16px;
+}
+.dp {
+	width: 200px;
+	margin: 2px;
+	border: solid white 3px;
+	border-radius: 1000px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 12vh;
+}
+.headings {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	font-size: 4em;
+	text-align: center;
+	/*text-shadow: 5px 5px 5px #FFFFFF;*/
+}
+.proj-img {
+	height: 150px;
+	width: 150px;
+}
+.proj-text {
+	text-align: center;
+	padding-top: 3em;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 13px;
+	color: #5A5A5A;
+}
+.panel {
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+}
+.proj-panel {
+	width: 80%;
+	padding-bottom: 40px;
+	/*margin-left: 70px;*/
+}
+.proj-panel-heading {
+	/*background-color: rgba(0, 0, 0, 0.02);*/
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 5px;
+	vertical-align: center;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	font-size: 15px;
+}
+.org-name {
+	font-size: 2.6em;
+	padding: 10px 0px 10px 0px;
+}
+.intern-panel-body {
+	padding: 20px 20px 20px 20px;
+	color: #5A5A5A;
+}
+.intern-panel-image {
+	padding-top: 20px;
+}
+.intern-box {
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+	border-radius: 20px;
+	font-weight: 400;
+	width: 95%;
+	background-color: white;
+}
+.intern-post, .intern-time {
+	background-color: rgba(0, 0, 0, 0.05);
+	/*background-color: rgba(0, 0, 0, 0.02);*/
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 5px;
+}
+.intern-box a, .cern-intern-box a {
+	color: #337ab7;
+	/*color: #5b881e;*/
+}
+.intern-img {
+	margin-top: 10px;
+	height: 150px;
+	width: 150px;
+}
+.intern-panel {
+	width: 80%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	opacity: 0.9;
+}
+.tech-box1, .tech-box2, .tech-box3 {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: white;
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	padding: 40px 11px 20px 11px;
+	margin-bottom: 40px;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 20px;
+}
+.tech-box1 a, .tech-box2 a, .tech-box3 a {
+	color: white;
+}
+.tech-box1 a:hover, .tech-box2 a:hover, .tech-box3 a:hover {
+	color: grey;
+	text-decoration: none;
+}
+.foot-text {
+	background-color: rgba(0, 0, 0, 0.4);
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 18px;
+	color: white;
+	padding: 10px 20px 10px 20px;
+	margin-top: 50px;
+}
+#tlemail {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px 10px 10px 10px;
+	color: #222629;
+}
+.subscribe-button {
+	color: #222629;
+	padding: 10px 15px 10px 15px;
+	background-color: #86c232;
+	border: none;
+	border-radius: 7px;
+}
+.box-padd {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+body {
+	overflow-x: hidden;
+}
+ul {
+	padding-left: 15px;
+}
+#internButton, #projButton, #techButton, .navbar-brand {
+	cursor: pointer;
+}
+
+/* Fix navbar responsiveness breakpoint issue */
+@media (max-width: 1024px) {
+	.navbar-header {
+		float: none;
+	}
+	.navbar-left,.navbar-right {
+		float: none !important;
+	}
+	.navbar-toggle {
+		display: block;
+	}
+	.navbar-collapse {
+		border-top: 1px solid transparent;
+		box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+	}
+	.navbar-fixed-top {
+		top: 0;
+		border-width: 0 0 1px;
+	}
+	.navbar-collapse.collapse {
+		display: none!important;
+	}
+	.navbar-nav {
+		float: none!important;
+		margin-top: 7.5px;
+	}
+	.navbar-nav>li {
+		float: none;
+	}
+	.navbar-nav>li>a {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.collapse.in{
+		display:block !important;
+	}
+}
+
+
+/* Rules for devices larger than Mobiles and Tablets */
+@media only screen and (min-width: 768px) {
+	.name {
+		text-align: center;
+		padding-left: 25vw;
+	}
+	.page2 {
+		padding-top: 20em;
+	}
+	#vivus-name {
+		width: 50vw;
+	}
+	.dp {
+		margin-top: 15vh;
+		margin-bottom: 2vh;
+		width: 270px;
+	}
+	.headings {
+		font-size: 80px;
+	}
+	.intro-text {
+		margin-top: 2vh;
+		font-size: 22px;
+		font-weight: 300;
+	}
+	.intern-panel-body {
+		padding-top: 10px;
+		padding-left: 0px;
+		padding-bottom: 10px;
+	}
+	.intern-panel-image {
+		padding-left: 5px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.intern-post {
+		border-right-style: solid;
+		border-right-width: 1px;
+		border-color: white;
+		margin-bottom: 5px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+	.intern-time {
+		border-left-style: solid;
+		border-left-width: 1px;
+		border-color: white;
+		margin-bottom: 5px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+	.navbar {
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 600;
+		font-size: 15px;
+		height: 75px;
+		border: none;
+		background-color: transparent;
+		-webkit-transition: all 0.4s ease;
+		transition: all 0.4s ease;
+	}
+	.shrinkNav {
+		height: 50px;
+		/*background-color: #222;*/
+		background-color: white;
+		font-size: 15px;
+	}
+	.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover {
+		color: #fff;
+		background-color: black;
+	}
+	.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+		color: #fff;
+		background-color: black;
+	}
+	.tech-box1, .tech-box2, .tech-box3 {
+		padding-top: 40px;
+		padding-bottom: 20px;
+		padding: 40px 4px 20px 4px;
+		margin-bottom: 40px;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.tech-box2 {
+		margin-top: 100px;
+	}
+	.tech-box3 {
+		margin-top: 200px;
+	}
+	.cern-intern-box {
+		width: 97.6%;
+	}
+}
+
+
+/* For very large devices, such as CERN Monitors xP */
+@media only screen and (min-width: 1700px) {
+	.dp {
+		margin-top: 10vh;
+		width: 225px;
+	}
+	.name {
+		margin-top: 40px;
+	}
+}
