@@ -120,7 +120,6 @@ span.cursor.typing {
 	width: 150px;
 }
 .proj-text {
-	text-align: center;
 	padding-top: 3em;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400;
@@ -136,6 +135,20 @@ span.cursor.typing {
 	width: 80%;
 	padding-bottom: 40px;
 	/*margin-left: 70px;*/
+}
+.panel-body {
+	text-align: justify;
+	padding: 20px;
+}
+.panel-title {
+	margin-bottom: 1em;
+	font-size: 1.5em;
+	text-align: center;
+}
+.panel-footer {
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 .proj-panel-heading {
 	/*background-color: rgba(0, 0, 0, 0.02);*/
