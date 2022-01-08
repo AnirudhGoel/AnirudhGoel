@@ -242,6 +242,9 @@ span.cursor.typing {
 	border: none;
 	border-radius: 7px;
 }
+.proj-link-button {
+	margin: 0 5px 0 5px;
+}
 .box-padd {
 	padding-top: 30px;
 	padding-bottom: 30px;
