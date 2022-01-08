@@ -46,7 +46,6 @@
 	background-repeat: no-repeat;
 }
 .footer {
-	padding: 50px 20px 0 20px;
 	background-color: #222629;
 	font-family: 'Open Sans', sans-serif;
 	color: white;
@@ -217,7 +216,6 @@ span.cursor.typing {
 	font-size: 18px;
 	color: white;
 	padding: 10px 20px 10px 20px;
-	margin-top: 50px;
 }
 #tlemail {
 	margin-top: 20px;
