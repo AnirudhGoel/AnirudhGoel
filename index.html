@@ -185,23 +185,26 @@
                                             <div class="intern-box-heading" align="center">
                                                 <div class="org-name"><a href="https://home.cern" target="_blank"><strong>CERN</strong></a></div>
                                                 <br>
-                                                <div class="col-sm-6 intern-post"><strong>Summer Student</strong></div>
-                                                <div class="col-sm-6 intern-time">June '17 - Sept '17</div>
+                                                <div class="col-sm-6 intern-post"><strong>Software Developer</strong></div>
+                                                <div class="col-sm-6 intern-time">Feb '20 - Present</div>
                                             </div>
                                             <br><br>
+                                            Core member of the Database on Demand (DBoD) Team in the CERN IT department; DBoD runs 1000+ database instances of PostgreSQL, MySQL and InfluxDB.
                                             <ul>
-                                                <li>Developed the <strong>Web Notification Infrastructure</strong> for the future <strong>ALICE O<sup>2</sup> System.</strong></li>
-                                                <li>The infrastructure can push notifications via 3 different means of transport:</li>
-                                                <ul>
-                                                    <li>Using Web Sockets,</li>
-                                                    <li>Using Service Workers (Chrome, Mozilla and other major browsers),</li>
-                                                    <li>Using Apple Push Notification Service (APNS) for Safari.</li>
-                                                </ul>
-                                                <li>Presented this infrastructure with a live demo in the ALICE Work Package 8 meeting.</li>
-                                                <li>Covered the code with Mocha tests (91.3% coverage), provided with JSDoc documentation and used Travis for continuous integration.</li>
-                                                <li>Created a unified notification trigger which can send notifications to both, browsers supporting service workers and to APNS with a single line terminal command.</li>
-                                                <li>All of this code and corresponding documentation is available on ALICE <a href="https://github.com/AliceO2Group/ControlGui" target="_blank">ControlGUI</a> and <a href="https://github.com/AliceO2Group/Gui" target="_blank">GUI</a> repository.</li>
-                                                <li>The Project Report can be found <a href="https://cds.cern.ch/record/2282564/files/Project%20Report%20Final.pdf" target="_blank">here</a>.</li>
+                                                <li><strong>High availability for PostgreSQL based critical services</strong>
+                                                    <ul>
+                                                        <li>Setup automated pipeline (using RunDeck, Docker, Nomad & Puppet) used to deploy multiple highly available PostgreSQL clusters for critical services (such as LHCb Data Monitoring, SSO, Puppet) to achieve 99.999% high availability.</li>
+                                                        <li>Wrote custom bash scripts for failover and online recovery to automatically promote standby to primary in case of primary instance failure and, automatically repair and recover failed instance after failover. Patch also accepted for bug fix in official PgPool failover script.</li>
+                                                        <li>Used synchronous replication to guarantee zero data loss; PgPool-II for load balancing and failover management; deployed using Nomad to ensure redundancy on PgPool level; used PgPool-II exporter, Prometheus and Prometheus alertmanager for real-time monitoring and alerts.</li>
+                                                        <li>Active member of the PgPool hackers community; discovered and contributed to patching multiple bugs in the PgPool-II project.</li>
+                                                    </ul>
+                                                </li>
+                                                <li><strong>Secondary Level Backup & Recovery System [Presented in HEPiX Autumn 2021]</strong>
+                                                    <ul>
+                                                        <li>Deployed using Puppet, a Python based service RPM that compresses (using zstd), encrypts and uploads new snapshots of 730+ database instances to EOS (CERN network storage) for ensuring a secondary layer of backups; 7.5 TBs of highly compressed (~80%) data backed up everyday.</li>
+                                                        <li>Developed an automated restore service to continuously restore and test backups, for validating backup & restore pipelines for a reliable Point-in- Time Recovery in case of issues. Service helped uncover various issues - configuration mis-match in config file vs runtime, permission issues in database cluster, WAL level errors, etc.</li>
+                                                    </ul>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -228,13 +231,14 @@
                                             </div>
                                             <br><br>
                                             <ul>
-                                                <li>Developed <strong>AV Analytics</strong></li>
-                                                <ul>
-                                                    <li>Django based platform that records the complete journey of all users across <strong>company’s multiple platforms</strong>.</li>
-                                                    <li>This data has helped to increase the <strong>customer acquisition by 54%</strong> and <strong>customer retention by 40%</strong>.</li>
-                                                    <li>Accrued <strong>85 Million records (2 Billion data points)</strong> till date, that are being used for various purposes including analytics and behavioural analysis.</li>
-                                                    <li>The service has been scaled from few hundred to few thousand users per day without requiring any changes.</li>
-                                                </ul>
+                                                <li>Developed <strong>AV Analytics</strong>
+                                                    <ul>
+                                                        <li>Django based platform that records the complete journey of all users across <strong>company’s multiple platforms</strong>.</li>
+                                                        <li>This data has helped to increase the <strong>customer acquisition by 54%</strong> and <strong>customer retention by 40%</strong>.</li>
+                                                        <li>Accrued <strong>85 Million records (2 Billion data points)</strong> till date, that are being used for various purposes including analytics and behavioural analysis.</li>
+                                                        <li>The service has been scaled from few hundred to few thousand users per day without requiring any changes.</li>
+                                                    </ul>
+                                                </li>
                                                 <li>Setup pipeline using AWS Kinesis Data Stream to sync the users’ profiles across platforms to obtain a 360 degree view of all users.</li>
                                             </ul>
                                         </div>
@@ -281,7 +285,7 @@
                                 </div>
                             </div>
                             <div class='col-sm-5 wow fadeInUp' align="center">
-                                <img src="img/projects/pinterest.png" alt='Pinterest Automatic' class='thumbnail proj-img'>
+                                <img src="img/projects/pinterest.png" alt='PinAutomatic' class='thumbnail proj-img'>
                                 <div class='proj-panel'>
                                     <div class='panel'>
                                         <div class='panel-body'>
@@ -290,8 +294,8 @@
                                             Started as a hobby project, it has been approved by Pinterest is currently being used by <strong>100+ users and has re-pinned 200,000+ pins</strong> till date.
                                             <br><br>
                                             <div align="center">
+                                                <a href="https://github.com/AnirudhGoel/PinterestAutomatic" target="_blank"><button type="button" class="btn btn-info proj-link-button"><i class="fab fa-github"></i> Github</button></a>
                                                 <a href="https://pinautomatic.herokuapp.com/" target='_blank'><button type="button" class="btn btn-success proj-link-button"><i class="fas fa-magic"></i> Demo</button></a>
-                                                <a href="https://github.com/AnirudhGoel/PinterestAutomatic" target="_blank"><button type="button" class="btn btn-success proj-link-button"><i class="fas fa-magic"></i> Demo</button></a>
                                             </div>
                                         </div>
                                         <div class='panel-footer'>
@@ -351,7 +355,7 @@
             </section>
 
             <section class="footer">
-                <div class='foot-text row'>
+                <div class='foot-text'>
                     <center>
                             &copy; 2015-22 Anirudh Goel |
                         <strong>
